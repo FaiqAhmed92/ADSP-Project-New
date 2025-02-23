@@ -113,9 +113,8 @@ def plot_responses_and_rt60(responses, rt60_values, title):
 
 # ===================== MAIN FUNCTION =====================
 def main():
-    # Get the directory where the current script resides.
+    # Get the directory
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    # Build the path to the 'data' folder relative to the script location.
     config_path = os.path.join(base_dir, 'data')
     
     room_configs = [
