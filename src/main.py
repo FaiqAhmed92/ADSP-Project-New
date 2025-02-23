@@ -113,7 +113,11 @@ def plot_responses_and_rt60(responses, rt60_values, title):
 
 # ===================== MAIN FUNCTION =====================
 def main():
-    config_path = 'C:\\Users\\LENOVO\\Desktop\\Website\\adsp-master\\data'
+    # Get the directory where the current script resides.
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    # Build the path to the 'data' folder relative to the script location.
+    config_path = os.path.join(base_dir, 'data')
+    
     room_configs = [
         "small_room.json", "large_room.json", "complex_room.json",
         "furnished_room.json", "empty_room.json", "treated_big_room.json", "untreated_big_room.json"
