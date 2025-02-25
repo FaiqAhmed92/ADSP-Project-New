@@ -1,4 +1,4 @@
-# Room Acoustics Simulation Models Implementation in Python
+# Room Acoustics Simulation Models Implementation in Python as an Image Source Method
 
 ## Overview
 This repository contains a **room acoustics simulation tool** that models **sound propagation and reflections** using the **image source method**. The tool calculates **impulse responses, RT60 reverberation time, and energy decay curves** for different room configurations.
@@ -20,7 +20,6 @@ src/
     ├── data/
     ├── main.py
     ├── acoustics.py
-tests/
 ```
 
 ## Technologies Used
@@ -67,13 +66,8 @@ The simulation provides:
 
 For detailed analysis, see the **report in the `docs/` folder**.
 
-## Contributors
-- [Your Name]
-- [Your Email]
-
-## License
-This project is licensed under the **MIT License**. See `LICENSE` for details.
+## Project Members
+- Faiq Ahmed (70489), Nimra Shamshad (66082)
 
 ## Contact
-For questions or contributions, reach out via email: [Your Email]
-
+For questions or contributions, reach out via email: faiq.ahmed@tu-ilmenau.de
